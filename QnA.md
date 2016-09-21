@@ -20,7 +20,7 @@
 
 - Give users the ability to customize the dashboard to add or remove fiat currencies
 
--- Add information such as last price, ask price, and provide tool-tips or a legend to explain particular jargon for better experience.
+- Add information such as last price, ask price, and provide tool-tips or a legend to explain particular jargon for better experience.
 
 > How long did this assignment take (in hours)? Please break down your answer into buckets (e.g. "Learning Angular", "Coding", "Debugging").
 

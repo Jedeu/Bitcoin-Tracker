@@ -1,0 +1,27 @@
+{
+  "name": "bitwidget",
+  "version": "1.0.0",
+  "description": "Widget that tracks bitcoin prices in different currencies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/routific/cc_jed_piezas_bitcoin.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "widget",
+    "currency"
+  ],
+  "author": "Jed Piezas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/routific/cc_jed_piezas_bitcoin/issues"
+  },
+  "homepage": "https://github.com/routific/cc_jed_piezas_bitcoin#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

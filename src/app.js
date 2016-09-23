@@ -1,10 +1,14 @@
-var express = require('express');
-var app = express();
+import express from 'express';
 
-app.get('/', function(req, res) {
+const app = express();
+
+app.get('/', (req, res) => {
   res.send('Hello World!');
 }); 
 
-app.listen(8080, function() {
-  console.log('Bit Widget listening on port 8080');
-})
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).send(err);
+});
+
+export default app;

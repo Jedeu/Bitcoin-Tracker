@@ -1,7 +1,7 @@
-import app from './app';
+import server from './app';
 import { logger } from './util';
 
-app.listen(8080, function() {
+server.listen(8080, function() {
   logger.info('Bit Widget listening on port 8080');
 });
 

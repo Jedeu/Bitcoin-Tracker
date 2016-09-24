@@ -25,7 +25,8 @@
   "dependencies": {
     "express": "^4.14.0",
     "morgan": "^1.7.0",
-    "rethinkdb": "^2.3.3",
+    "rethinkdbdash": "^2.3.23",
+    "socket.io": "^1.4.8",
     "winston": "^2.2.0"
   },
   "devDependencies": {

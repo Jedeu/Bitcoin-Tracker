@@ -10,8 +10,8 @@ export const logger = new winston.Logger({
       label: 'bit-widget',
     })
   ]
-}]);
+});
 
 logger.stream = {
-  write: message => logger.info(message);
+  write: message => logger.info(message)
 }

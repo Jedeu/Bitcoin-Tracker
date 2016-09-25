@@ -1,1 +1,1 @@
-export { Price } from './price';
+export { price } from './price/price';

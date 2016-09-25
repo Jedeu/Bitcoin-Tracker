@@ -1,0 +1,56 @@
+2016-09-24T16:57:53.369580000 0.328906s notice: Recursively removing directory /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data/tmp
+2016-09-24T16:57:53.371627000 0.330959s notice: Initializing directory /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data
+2016-09-24T16:57:53.371800000 0.331125s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data' did not already exist or is empty.)
+2016-09-24T16:57:53.371879000 0.331204s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-09-24T16:57:53.378667000 0.337993s notice: Running on Darwin 15.6.0 x86_64
+2016-09-24T16:57:53.378739000 0.338064s notice: Loading data from directory /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data
+2016-09-24T16:57:54.593313000 1.552638s info: Automatically using cache size of 2870 MB
+2016-09-24T16:57:54.594796000 1.554121s notice: Listening for intracluster connections on port 29015
+2016-09-24T16:57:54.597340000 1.556665s notice: Listening for client driver connections on port 28015
+2016-09-24T16:57:54.597608000 1.556933s notice: Listening for administrative HTTP connections on port 8080
+2016-09-24T16:57:54.597614000 1.556939s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-09-24T16:57:54.597623000 1.556948s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-09-24T16:57:54.597627000 1.556951s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-09-24T16:57:54.597635000 1.556959s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-09-24T16:57:54.597644000 1.556968s notice: Server ready, "Jeds_MacBook_Pro_local_djc" f2e30eb4-40d3-44f7-9f4a-0f5b631fe35e
+2016-09-24T17:01:47.799512000 234.764830s info: Table 36c1f251-2331-4019-9e36-8defe3d8c407: Starting a new Raft election for term 1.
+2016-09-24T17:01:47.800180000 234.765498s info: Table 36c1f251-2331-4019-9e36-8defe3d8c407: Added replica on this server.
+2016-09-24T17:01:47.987913000 234.953231s info: Table 36c1f251-2331-4019-9e36-8defe3d8c407: This server is Raft leader for term 1. Latest log index is 0.
+2016-09-24T17:03:30.130463000 337.099223s info: Table 8cbc8cd9-fb86-4d10-bccd-7e3ee519f728: Starting a new Raft election for term 1.
+2016-09-24T17:03:30.130944000 337.099704s info: Table 8cbc8cd9-fb86-4d10-bccd-7e3ee519f728: Added replica on this server.
+2016-09-24T17:03:30.362788000 337.331549s info: Table 8cbc8cd9-fb86-4d10-bccd-7e3ee519f728: This server is Raft leader for term 1. Latest log index is 0.
+2016-09-24T17:11:14.716571000 801.699770s info: Table dd166cd5-9248-4f22-97fb-4f2e49e2cd81: Starting a new Raft election for term 1.
+2016-09-24T17:11:14.717179000 801.700378s info: Table dd166cd5-9248-4f22-97fb-4f2e49e2cd81: Added replica on this server.
+2016-09-24T17:11:14.938399000 801.921598s info: Table dd166cd5-9248-4f22-97fb-4f2e49e2cd81: This server is Raft leader for term 1. Latest log index is 0.
+2016-09-24T17:11:37.813050000 824.796959s notice: Server got SIGINT from pid 30443, uid 501; shutting down...
+2016-09-24T17:11:37.813292000 824.797200s notice: Shutting down client connections...
+2016-09-24T17:11:37.813501000 824.797409s notice: All client connections closed.
+2016-09-24T17:11:37.813516000 824.797424s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-24T17:11:37.825324000 824.809232s notice: Storage engine shut down.
+2016-09-24T17:11:39.037646000 0.284900s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-09-24T17:11:39.049166000 0.296409s notice: Running on Darwin 15.6.0 x86_64
+2016-09-24T17:11:39.049241000 0.296482s notice: Loading data from directory /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data
+2016-09-24T17:11:39.336831000 0.584073s info: Automatically using cache size of 2879 MB
+2016-09-24T17:11:39.338142000 0.585383s notice: Listening for intracluster connections on port 29015
+2016-09-24T17:11:39.380705000 0.628005s notice: Listening for client driver connections on port 28015
+2016-09-24T17:11:39.380996000 0.628296s notice: Listening for administrative HTTP connections on port 8080
+2016-09-24T17:11:39.381000000 0.628299s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-09-24T17:11:39.381003000 0.628302s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-09-24T17:11:39.381149000 0.628455s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-09-24T17:11:39.381219000 0.628519s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-09-24T17:11:39.381226000 0.628525s notice: Server ready, "Jeds_MacBook_Pro_local_djc" f2e30eb4-40d3-44f7-9f4a-0f5b631fe35e
+2016-09-24T17:11:40.786712000 2.034012s info: Table dd166cd5-9248-4f22-97fb-4f2e49e2cd81: Starting a new Raft election for term 2.
+2016-09-24T17:11:40.993954000 2.241254s info: Table 36c1f251-2331-4019-9e36-8defe3d8c407: Starting a new Raft election for term 2.
+2016-09-24T17:11:41.222217000 2.469517s info: Table dd166cd5-9248-4f22-97fb-4f2e49e2cd81: This server is Raft leader for term 2. Latest log index is 3.
+2016-09-24T17:11:41.339370000 2.586728s info: Table 8cbc8cd9-fb86-4d10-bccd-7e3ee519f728: Starting a new Raft election for term 2.
+2016-09-24T17:11:41.602765000 2.850124s info: Table 36c1f251-2331-4019-9e36-8defe3d8c407: This server is Raft leader for term 2. Latest log index is 3.
+2016-09-24T17:11:41.753315000 3.000673s info: Table 8cbc8cd9-fb86-4d10-bccd-7e3ee519f728: This server is Raft leader for term 2. Latest log index is 3.
+2016-09-24T17:12:16.936720000 38.185077s notice: Removing file /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data/36c1f251-2331-4019-9e36-8defe3d8c407
+2016-09-24T17:12:16.936733000 38.185090s info: Table 36c1f251-2331-4019-9e36-8defe3d8c407: Deleted the table.
+2016-09-24T17:12:17.186068000 38.434484s notice: Removing file /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/src/db/rethinkdb_data/8cbc8cd9-fb86-4d10-bccd-7e3ee519f728
+2016-09-24T17:12:17.186086000 38.434501s info: Table 8cbc8cd9-fb86-4d10-bccd-7e3ee519f728: Deleted the table.
+2016-09-24T17:42:01.545014000 1822.840683s notice: Server got SIGINT from pid 30443, uid 501; shutting down...
+2016-09-24T17:42:01.545216000 1822.840885s notice: Shutting down client connections...
+2016-09-24T17:42:01.545562000 1822.841232s notice: All client connections closed.
+2016-09-24T17:42:01.545570000 1822.841239s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-24T17:42:01.550780000 1822.846450s notice: Storage engine shut down.

@@ -5,6 +5,8 @@ export const price = {}
 price.setup = function (io) {
   io.on('connection', function(socket) {
     r.table('price')
+      .orderBy(r.desc('time'))
+      .nth(1)
       .run()
       .then(function (result) {
         let json = JSON.stringify(result);

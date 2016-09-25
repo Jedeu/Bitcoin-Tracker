@@ -1,7 +1,7 @@
 import Bluebird from 'bluebird';
 import rp from 'request-promise';
 import { r } from '../db/dbdash';
-import { logger } from './util';
+import { logger } from './logger';
 
 const canadianEndPoint = 'https://api.bitcoinaverage.com/ticker/global/CAD/last';
 const usEndPoint = 'https://api.bitcoinaverage.com/ticker/global/USD/last';
@@ -23,8 +23,6 @@ btc.getLatestPrices = function () {
         USD: USDResponse,
         CLP: CLPResponse,
         time: new Date()
-      }, {
-        conflict: "update"
       })
       .run();
   })

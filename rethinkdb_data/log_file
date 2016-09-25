@@ -52,3 +52,22 @@
 2016-09-25T08:44:35.438053000 1.062248s notice: Server ready, "Jeds_MacBook_Pro_local_c1z" 0d938889-b837-4a53-b3b3-306a48ff2ec4
 2016-09-25T08:44:36.558147000 2.182391s info: Table cfe726ed-2b4a-4e14-9000-30b59fe4f669: Starting a new Raft election for term 2.
 2016-09-25T08:44:36.839847000 2.464089s info: Table cfe726ed-2b4a-4e14-9000-30b59fe4f669: This server is Raft leader for term 2. Latest log index is 2.
+2016-09-25T10:47:25.219008000 7371.003002s notice: Server got SIGINT from pid 32152, uid 501; shutting down...
+2016-09-25T10:47:25.219263000 7371.003256s notice: Shutting down client connections...
+2016-09-25T10:47:25.219557000 7371.003549s notice: All client connections closed.
+2016-09-25T10:47:25.219569000 7371.003561s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-09-25T10:47:25.225611000 7371.009604s notice: Storage engine shut down.
+2016-09-25T12:02:02.640450000 0.497120s notice: Running rethinkdb 2.3.5 (CLANG 7.3.0 (clang-703.0.31))...
+2016-09-25T12:02:02.710971000 0.567637s notice: Running on Darwin 15.6.0 x86_64
+2016-09-25T12:02:02.711786000 0.568450s notice: Loading data from directory /Users/Jed/Desktop/coding-projects/js-stuff/cc_jed_piezas_bitcoin/rethinkdb_data
+2016-09-25T12:02:03.179081000 1.035789s info: Automatically using cache size of 2926 MB
+2016-09-25T12:02:03.180298000 1.037006s notice: Listening for intracluster connections on port 29015
+2016-09-25T12:02:03.249283000 1.105992s notice: Listening for client driver connections on port 28015
+2016-09-25T12:02:03.249547000 1.106254s notice: Listening for administrative HTTP connections on port 8080
+2016-09-25T12:02:03.249551000 1.106258s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-09-25T12:02:03.249553000 1.106260s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-09-25T12:02:03.249554000 1.106262s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-09-25T12:02:03.249627000 1.106335s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-09-25T12:02:03.249632000 1.106339s notice: Server ready, "Jeds_MacBook_Pro_local_c1z" 0d938889-b837-4a53-b3b3-306a48ff2ec4
+2016-09-25T12:02:05.202521000 3.059273s info: Table cfe726ed-2b4a-4e14-9000-30b59fe4f669: Starting a new Raft election for term 3.
+2016-09-25T12:02:05.396634000 3.253387s info: Table cfe726ed-2b4a-4e14-9000-30b59fe4f669: This server is Raft leader for term 3. Latest log index is 5.

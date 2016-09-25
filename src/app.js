@@ -5,6 +5,7 @@ import SocketIO from 'socket.io';
 import { price } from './db'
 import { logger } from './util';
 import { btc } from './util';
+import { scheduler } from './util';
 
 const app = express();
 
@@ -16,17 +17,16 @@ app.use(morgan('combined', {stream: logger.stream}));
 
 app.get('/', (req, res) => {
   price.setup(io);
-  price.update(io);
+  // price.update(io);
   res.sendFile(__dirname + '/public/index.html' );
 });
-
-// TODO: Run this via scheduler
-btc.getLatestPrices(); 
 
 app.use((err, req, res, next) => {
   logger.error(err.stack);
   res.status(500).send(err);
 });
+
+scheduler.updatePrices();
 
 
 

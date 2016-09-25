@@ -2,7 +2,7 @@ import { r } from '../dbdash';
 
 export const price = {}
 
-price.setup = function(io) {
+price.setup = function (io) {
   io.on('connection', function(socket) {
     r.table('price')
       .run()

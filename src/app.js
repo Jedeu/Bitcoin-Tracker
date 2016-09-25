@@ -17,7 +17,6 @@ app.use(morgan('combined', {stream: logger.stream}));
 
 app.get('/', (req, res) => {
   price.setup(io);
-  // price.update(io);
   res.sendFile(__dirname + '/public/index.html' );
 });
 
@@ -27,8 +26,6 @@ app.use((err, req, res, next) => {
 });
 
 scheduler.updatePrices();
-
-
 
 
 export default server;

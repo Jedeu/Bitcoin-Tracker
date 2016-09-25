@@ -7,7 +7,6 @@ const canadianEndPoint = 'https://api.bitcoinaverage.com/ticker/global/CAD/last'
 const usEndPoint = 'https://api.bitcoinaverage.com/ticker/global/USD/last';
 const chileanEndPoint = 'https://api.bitcoinaverage.com/ticker/global/CLP/last';
 
-
 let CADRequest = rp(canadianEndPoint);
 let USDRequest = rp(usEndPoint);
 let CLPRequest = rp(chileanEndPoint);

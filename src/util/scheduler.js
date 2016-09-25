@@ -1,5 +1,4 @@
-//This is ugh but I can't figure out how to import this using ES6
-let CronJob = require('cron').CronJob;
+import { CronJob } from 'cron';
 import { btc } from './btc';
 
 export const scheduler = {};

@@ -3,12 +3,27 @@
 <head>
   <meta charset=utf-8 />
   <title>Bit-Widget</title>
-<script src="/socket.io/socket.io.js"></script>
-<script src="/js/main.js"></script>
+  <link rel="stylesheet" href="/stylesheets/main.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/main.js"></script>
 </head>
 
 <body>
-Hello Jed Piezas! 
+  <div class="widget">
+    <h2 class="widget-title">Bit-Widget</h2>
+    <h6 class="widget-microcopy"><em>We update prices every minute!</em></h6> 
+    <div class="bitcoin-flags">     
+      <img src="/images/flags/Canada.png">      
+      <img src="/images/flags/United-States-of-America.png">          
+      <img src="/images/flags/Chile.png">
+    </div>
+    <div class="bitcoin-info">
+      <div id="CAD"></div>
+      <div id="USD"></div>
+      <div id="CLP"></div>
+      <span id="time"></span>
+    </div>
+  </div>
 </body>
 
 </html>

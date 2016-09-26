@@ -1,0 +1,43 @@
+body {
+  background: rgb(170, 170, 170);
+}
+
+.widget {
+  width: 50%;
+  height: 50%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: rgb(52, 73, 94);
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  
+}
+
+.widget-title {
+  text-align: center;
+}
+
+.widget-microcopy {
+  text-align: center;
+}
+
+.bitcoin-flags {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.bitcoin-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2%;
+  color: rgb(255, 255, 255);
+  flex-wrap: wrap;
+}
+
+.bitcoin-info > span {
+  display: block;
+}

@@ -32,6 +32,11 @@ btc.getLatestPrices = function () {
 }
 
 function _captureTimestamp() {
-  var now = new Date();
-  return now.getUTCHours() + ":" + now.getUTCMinutes() + " GMT";
+  let now = new Date();
+  let hours = now.getUTCHours();
+  let minutes = now.getUTCMinutes();
+  if (minutes < 10) {
+    minutes = '0' + minutes;
+  }
+  return hours + ":" + minutes + " GMT";
 }

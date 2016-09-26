@@ -3,16 +3,17 @@ body {
 }
 
 .widget {
-  width: 50%;
-  height: 50%;
+  width: 350px;
+  min-height: 400px;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
   background: rgb(52, 73, 94);
   color: rgb(255, 255, 255);
   border-radius: 5px;
+  position: relative;
   
 }
 
@@ -27,17 +28,33 @@ body {
 .bitcoin-flags {
   display: flex;
   justify-content: space-around;
-  margin-top: 5%;
+  margin-top: 25%;
+  position:;
 }
 
 .bitcoin-info {
   display: flex;
   justify-content: space-around;
-  margin-top: 2%;
+  margin-top: 5%;
   color: rgb(255, 255, 255);
   flex-wrap: wrap;
 }
 
 .bitcoin-info > span {
   display: block;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 10px;
+}
+
+#CAD {
+  padding-left: 15px;
+}
+
+#USD {
+  padding-left: 35px;
+}
+
+#CLP {
+  padding-left: 15px;
 }

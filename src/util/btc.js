@@ -16,16 +16,22 @@ export const btc = {};
 btc.getLatestPrices = function () {
   Bluebird.all([CADRequest, USDRequest, CLPRequest])
   .spread((CADResponse, USDResponse, CLPResponse) => {
+    let time = _captureTimestamp();
     r.table('price')
       .insert({
         CAD: CADResponse,
         USD: USDResponse,
         CLP: CLPResponse,
-        time: new Date()
+        time: time
       })
       .run();
   })
   .catch((err) => {
     logger.error('Error retrieving data: ', err);
   });
+}
+
+function _captureTimestamp() {
+  var now = new Date();
+  return now.getUTCHours() + ":" + now.getUTCMinutes() + " GMT";
 }

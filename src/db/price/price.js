@@ -25,7 +25,6 @@ function _updateLatestPrices(io) {
   r.table('price')
   .changes()
   .run({cursor: true}, function(err, cursor) {
-    //TODO: Turn this into a Promise
     if (err) {
       logger.error(err);
     }

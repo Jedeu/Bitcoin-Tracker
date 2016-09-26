@@ -13,11 +13,13 @@ const server = http.Server(app);
 
 let io = new SocketIO(server);
 
+app.use(express.static(__dirname + '/public'));
+
 app.use(morgan('combined', {stream: logger.stream}));
 
 app.get('/', (req, res) => {
   price.setup(io);
-  res.sendFile(__dirname + '/public/index.html' );
+  res.sendFile(__dirname + '/views/index.html');
 });
 
 app.use((err, req, res, next) => {
